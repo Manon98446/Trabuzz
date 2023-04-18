@@ -1,0 +1,164 @@
+body{
+    display: flex;
+    justify-items: center;
+    font-family:"league spartan", sans-serif;
+    margin:0px;
+    background-color: #FFD79C;
+}
+.container{
+    display:flex;
+    margin: 0px auto;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-content: center;
+    background-color: #FFD79C; 
+}
+
+header{
+    padding:0px 80px;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background-color: #FFD79C;
+    max-width:100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+a:link{
+    font-weight: medium;
+    font-size: 32px;
+    color: rgba(30, 30, 30, 0.8);
+    text-decoration: none;
+}
+a:link:hover{
+    color:#fcab32
+}
+.acceuil{
+    font-weight: bold;
+    color:black ;
+}
+.banner{
+    width: 1300px;
+    margin-left: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+#img1{
+    height:633px;
+    width:976px;
+    margin: 0px;
+    padding:0px;
+    border-radius: 10px;
+}
+.div1{
+    display:flex;
+    margin-top: 10px;
+}
+.ncsb{
+    display:flex;
+    flex-direction: row;
+}
+.sponsor{
+    display:flex;
+    flex-direction: column;
+}
+.txtsponsor{
+    font-size: 32px;
+    background-color: rgba(30, 30, 30);
+    height: 50px;
+    color: white;
+    margin: 0px 0px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 9px;
+    border-radius: 10px 10px 0px 0px;
+}
+.div2{
+    align-self:center;
+    justify-self: center;
+    margin:40px 0px;
+}
+.map{
+    border-radius: 15px;
+}
+/*input{
+    color: rgba(30, 30, 30, 0.8);
+    box-sizing: border-box;
+    background-color: #ffffffbb;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    height:40px;
+    padding:10px;
+    position: relative;
+    bottom: 670px;
+    right: 20px;
+    margin:20px;
+}
+.searchbutton{
+    background-color: #ffffff00;
+    border: none;
+    position: relative;
+    bottom:670px;
+    right: 80px;
+}*/
+
+#vik{
+    border-radius: 0px;
+}
+#soccerbook{
+    border-radius: 0px 0px 10px 0px;
+}
+#nicoach{
+    border-radius: 0px 0px 0px 10px;
+}
+
+
+
+footer {
+    height: 120px;
+    background-color:black;
+    color:white;
+    padding:0px 80px;
+    font-family:"league spartan", sans-serif;
+}
+.footer-top {
+    display:flex;
+    align-items: center;
+
+}
+.follow {
+    justify-content: flex-start;
+    font-size:18px;
+}
+.follow-icons {
+    display: flex;
+    justify-content: space-between;
+    width:180px;
+}
+.instagramlogo {
+    height:32px;
+    margin-left:50px;
+}
+.facebooklogo {
+    height:32px;
+}
+.twitterlogo {
+    height:32px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:900px
+}
+p.footernav,a.footernav {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+}
+a.footernav:hover{
+    color: #fcab32;
+}

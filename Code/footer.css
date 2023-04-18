@@ -1,0 +1,22 @@
+footer {
+    background-color:black;
+    color:white;
+}
+.footer-top {
+    display:flex;
+}
+.social-links {
+    display:flex;
+    max-width:900px;
+    list-style: none;
+    align-items: center;
+}
+.instagramlogo {
+    height:32px;
+}
+.facebooklogo {
+    height:32px;
+}
+.twitterlogo {
+    height:32px;
+}

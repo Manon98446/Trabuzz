@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Open+Sans:wght@300&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="website.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabuzz</title>
+</head>
+<body class="container">
+
+    <header>
+        <div class="logo">
+            <img src="logo7.svg" alt="logo">
+        </div>
+        <div class="banner">
+            <a href="acceuil.org" class="acceuil">Acceuil</a>
+            <a href="monprofil.org">Profil</a>
+            <a href="Partenaires.org">Partenaires</a>
+            <a href="boutique.org">Boutique</a>
+            <a href="apropos.org">à propos</a>
+
+        </div>
+    </header>
+    <main class="container">
+        <div class="div1">
+            <img src="image1.jpg" id="img1">
+            <div class="sponsor">
+                <p class="txtsponsor">Nos Sponsors</p>
+                <img id="vik" src="vik.jpg" alt="sponsor VIK">
+                <div class="ncsb">
+                    <img id="nicoach" src="nicoach.jpg" alt="sponsor nicoach">
+                    <img id="soccerbook"src="soccerbook.jpg" alt="sponsor soccerbook">
+                </div>
+            </div>
+        </div>
+        <div class="div2">
+<!--trouvé le code sur W3 school-->
+            <div class="map" id="mapid" style="width: 1200px; height: 600px"></div>
+
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+                <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+                <script type="text/javascript">
+                    var map = L.map('mapid').setView([51.505, -0.06], 20);
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> '
+                        }).addTo(map);
+                </script>
+<!--jusqu'ici-->           
+            <!--<div class="search">
+                <input type="search" id="search"value="Rechercher">
+                <button class="searchbutton"><img src="Search.svg"></button>
+            </div>-->
+        </div>
+    </main>
+    <footer>
+        <div class="footer-top"> 
+           
+                <p class="follow">Suivez-nous</p>
+                <div class="follow-icons">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="instagramlogo.svg" class="instagramlogo" alt="Instagram logo in black and white">
+                    </a>                    
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="facebooklogo.svg" class="facebooklogo" alt="Facebook logo in black and white">
+                    </a>  
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="twitterlogo.svg" class="twitterlogo" alt="Twitter logo in black and white">
+                    </a>  
+                </div>                                     
+        </div>
+        <div class="nav-item">
+            <a href="" class="footernav">Accueil</a>
+            <a href="" class="footernav">Télécharger l'app</a>
+            <a href="" class="footernav">Partenaires</a>
+            <a href="" class="footernav">Boutique</a>
+            <a href="" class="footernav">À propos</a>
+            <a href="" class="footernav">Contacts</a>
+            <a href="" class="footernav">Mentions légales</a>
+            <p class="footernav">© Trabuzz 2023</p>
+        </div>
+       
+    </footer>
+
+</body>
+</html>
