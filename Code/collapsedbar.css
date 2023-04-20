@@ -1,0 +1,133 @@
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 5px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: inline;
+    transition: 0.3s;
+    margin-left:20px;
+  }
+  .sidebr{
+    display:flex ;
+    align-items: center;
+    padding:20px;
+  }
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+}
+ .maps{
+    color: #fcab32;
+    font-size: 40px;
+    align-self: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+  .imgicon{
+    width: 50px;
+    height:50px;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color:#fcab32;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:#FFD79C;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#fcab32;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  script.sidebar{
+    position: fixed;
+  }
+div.trsprt{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.imgtrsprt{
+    width:30px;
+    height: 30px;
+    background-color: #fcab32;
+}
+.profile{
+    display:flex;
+    align-items: center;
+    margin:10px
+}
+p.profile{
+    margin:15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: pink;
+}
+.rndorg{
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    background-color: #fcab32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.medal{
+    width:30px;
+    position: absolute;
+    top:655px;
+    left:28px;
+}
+#xp{
+    margin:20px;
+}
+#points{
+    width:100px;
+     align-self: center;
+}
+.pic{
+    width: 65px;
+}
