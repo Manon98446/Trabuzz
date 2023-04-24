@@ -1,0 +1,193 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    max-width: 375px;
+    font-family: "league spartan", sans-serif;
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width:375px;
+    display:flex;
+    height:64px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFD79C;
+    font-family: "league spartan", sans-serif;
+    position:absolute;
+    bottom:0;
+}
+.container {
+    z-index: 1;
+}
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #FFD79C;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+.sidebar .txtmenu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    /*display: block;*/
+    transition: 0.3s;
+  }
+  
+  /* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+  }
+  
+.line1 {
+    height:2px;
+    background-color: black;
+    width:150px;
+    margin:0px 50px 0px 50px;
+  }
+.iconside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:30px 0px 30px 0px;
+  }
+.iconside img {
+    height:50px;
+    margin:5px;
+  }
+.titlemenu, .closebtn {
+    margin: 10px 0px 40px 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.icon-txtmenu {
+    display:flex;
+    align-items: center;
+}
+.icon-txtmenu img {
+    margin-right:10px;
+}
+#warning {
+    height:31px;
+}
+#headset {
+    height:31px;
+}
+
+.boutique {
+    display: flex;
+    align-items: center;
+    margin: 16px 0px;
+}
+.boutique img {
+    margin-right:10px;
+    height:31px;
+}
+.follow-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 32px 0px 32px;
+}
+.instagramlogo, .facebooklogo, .twitterlogo {
+    height:31px;
+    width:31px;
+}
+#copyright {
+    margin: 150px 0px 0px 32px;
+}
+
+
+#avatar{
+    height:100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-right:10px;
+}
+.points{
+    display:flex;
+    flex-direction: column;
+}
+.points img{
+    margin: 10px;
+}
+#pnt{
+    width: 150px;
+}
+#xp{
+    width: 240px;
+    padding-top:30px
+}
+.user{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD79C;
+}
+.shoplinks a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}
+.shoplinks{
+    background-color: #FFD79C;
+    padding:10px;
+    display: flex;
+    justify-content:space-around ;
+}
+#pageon{
+    background-color: #eb7106da;
+    padding:5px;
+    border-radius: 4px;
+}
+.shopping a:hover{
+    background-color: #FFB670;
+    padding:5px;
+    border-radius: 4px;
+}
+.bons{
+    border-top: #000000;
+    border-top: solid;
+    padding:20px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.medal{
+    position: relative;
+    right:80px;
+    top:45px;
+}
+.trabuzz{
+    background-color: #FFD79C;
+    display:flex;
+    justify-content: center;
+    padding:10px 0px 0px 0px;
+}
+h1{
+    font-weight:900;
+    font-size: 44px;
+    color: #eb7106;
+}

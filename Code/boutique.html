@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabuzz App</title>
+    <link rel="stylesheet" href="boutique.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Open+Sans:wght@300&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="trabuzz"><h1>TraBuzz</h1></div>
+        <div class="user">
+            <div class="points">
+                <img id="xp" src="img/xpbar.svg">
+                <img id="pnt" src="img/points.svg">
+            </div>
+            <div class="avatar">
+                <img id="avatar" src="img/avatar.svg">
+            </div>
+            <a href="https://www.youtube.com/watch?v=hJgQCbRsq-I"><img class="medal" src="img/medaille.svg"></a>
+        </div>   
+        <div class="shoplinks">
+            
+            <div class="reduction"><a id="reductions" href="http://127.0.0.1:5500/boutique.html">Réductions</a></div>
+            <div class="shopping"><a href="http://127.0.0.1:5500/boutique2.html#">Tickets</a></div>
+            <div class="shopping"><a href="http://127.0.0.1:5500/boutique3.html">Dons</a></div>
+            <div class="shopping"><a href="#">Tirages</a></div>
+        </div>
+        <div class="bons">
+            <div class="plisita">
+                <img src="img/plisita.svg">
+            </div>
+            <div class="haut">
+                <img src="img/hautfournaut.svg">
+            </div>
+            <div class="gaufres">
+                <img src="img/gaufres.svg">
+            </div>
+        </div>
+       
+        <footer class="app-footer">
+            <div class="footer-container">
+                    <div id="mySidebar" class="sidebar">
+                            <h1 class="titlemenu">Menu</h1>
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <div class="line1"></div>
+                        <div class="iconside">
+                            <a href="#" class="icons"><img src="img/icon-walk.svg"></a>
+                            <a href="#" class="icons"><img src="img/icon-bike.svg"></a>
+                            <a href="#" class="icons"><img src="img/icon-bus.svg"></a>
+                            <a href="#" class="icons"><img src="img/icon-train.svg"></a>
+                            <a href="#" class="icons"><img src="img/icon-tram.svg"></a>
+                            <a href="#" class="icons"><img src="img/icon-metro.svg"></a>
+                        </div>
+                        <div class="txtmenu">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="icon-txtmenu"><img src="img/icon-trajet.svg" alt="Icon of a pinpoint for  your journey"> Vos trajets</a>
+                            <a href="#" class="icon-txtmenu"><img src="img/icon-busbw.svg" alt="Icon of a bus"> Horaires</a>
+                            <a href="#" class="icon-txtmenu"><img src="img/icon-signal.svg" id="warning" alt="Icon of a warning"> Signalement</a>
+                            <a href="#" class="icon-txtmenu"><img src="img/icon-aide.svg" id="headset" alt="Icon of a customer service headset"> Aide</a>
+                        <div class="line1"></div>
+                        <a href="" class="boutique"><img src="img/buzzcoin.svg" alt="Icon of a capital B in a circle">Boutique</a>
+                        </div>
+                        <div class="line1"></div>
+                        <div class="follow-icons">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="img/instagram logo.svg" class="instagramlogo" alt="Instagram logo in black and white">
+                            </a>                    
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="img/facebook-logo.svg" class="facebooklogo" alt="Facebook logo in black and white">
+                            </a>  
+                            <a href="https://twitter.com/" target="_blank">
+                                <img src="img/twitter logo.svg" class="twitterlogo" alt="Twitter logo in black and white">
+                            </a>  
+                        </div>
+                        <p id="copyright">© Trabuzz 2023</p>           
+                    </div>   
+                    <div id="main">
+                        <img onclick="openNav()" src="img/menu-icon.svg">
+                    </div>
+                <a href="" alt="Icon of a magnifying glass for search bar" class="icon search-icon"><img src="img/search-logo.svg"></a>
+                <a href="http://127.0.0.1:5500/trabuzz-mobile-profil.html" alt="Icon of a profile in a circle" class="icon profil-icon"><img src="img/profil-mobile.svg"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
