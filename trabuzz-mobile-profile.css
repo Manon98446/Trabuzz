@@ -1,0 +1,198 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "league spartan", sans-serif;
+}
+html {
+    height: 100%;
+}
+body {
+    position: relative;
+    min-height: 100%;
+}
+#container {
+    z-index: 1;
+}
+.profile {
+    background-color: #FFD79C;
+}
+h1 {
+    font-size:16px;
+}
+.toppersonnalprofile {
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.user-info {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    list-style-type: none;
+    margin: 32px 10px 0px 0px;
+    height:120px;
+    width:170px;
+    background-color: #ffffff;
+}
+.buzzpoints {
+    margin-top:10px;
+}
+.buzzpoints-icon {
+    margin-top: 5px;
+}
+.profile-user {
+    height:110px;
+    border-radius: 50%;
+    margin:30px 32px 10px 32px;
+}
+.user-medal {
+    position:absolute;
+    right:62px;
+    top:110px;
+    height:50px;
+}
+.middlepersonnalprofile {
+    display:flex;
+    justify-content: center;
+    margin:auto;
+}
+.bottompersonnalprofile {
+    display: flex;
+    flex-direction: column;
+}
+.contribution {
+    margin: 20px 0px 0px 30px;
+}
+.type-contributions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    height:100px;
+    width:80%;
+    padding:10px;
+    margin: 10px 0px 30px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #ffffff;
+    list-style-type:none;
+}
+.line2 {
+    height:2px;
+    background-color: black;
+    width: 100%;
+  }
+  .txtpurchase {
+    margin:10px;
+  }
+  .purchasehistory { 
+    padding:30px 30px 80px 30px;
+  }
+.footer-container {
+    width:375px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFD79C;
+    position:absolute;
+    bottom:0;
+}
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #FFD79C;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  /* The sidebar links */
+.sidebar .txtmenu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    transition: 0.3s;
+  }
+  
+  /* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+  }
+  .line1 {
+    height:2px;
+    background-color: black;
+    width:150px;
+    margin:0px 50px 0px 50px;
+  }
+.iconside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:30px 0px 30px 0px;
+  }
+.iconside img {
+    height:50px;
+    margin:5px;
+  }
+.titlemenu, .closebtn {
+    display: flex;
+    margin: 20px 0px 40px 20px;
+    text-decoration: none;
+    color: #000000;
+    align-items: center;
+}
+.closebtn {
+    height:30px;
+}
+.icon-txtmenu {
+    display:flex;
+    align-items: center;
+}
+.icon-txtmenu img {
+    margin-right:10px;
+}
+#warning {
+    height:31px;
+}
+#headset {
+    height:31px;
+}
+.boutique {
+    display: flex;
+    align-items: center;
+    margin: 16px 0px;
+}
+.boutique img {
+    margin-right:10px;
+    height:31px;
+}
+.follow-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 32px 0px 32px;
+}
+.instagramlogo, .facebooklogo, .twitterlogo {
+    height:31px;
+    width:31px;
+}
+#copyright {
+    margin: 130px 0px 0px 32px;
+}
+
+
+
+
