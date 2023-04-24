@@ -83,14 +83,11 @@ a#installapp:hover{
     flex-direction:row ;
     justify-content: space-between;
     margin-top: 10px;
-    width: 100%;
+    width: 1440px;
 }
 .femmeblonde{
     height:633px;
     width:976px;
-    margin: 0px;
-    padding:0px;
-    border-radius: 10px;
     position: relative;
 }
 .qrinstallapp{
@@ -98,8 +95,8 @@ a#installapp:hover{
     flex-direction: column;
     color: white;
     position:absolute;
-    left:317px;
-    top: 260px;
+    left:31%;
+    top: 25%;
     font-size: 22px;
     transform: rotate(-2deg);
 
